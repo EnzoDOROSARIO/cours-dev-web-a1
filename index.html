@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Arbres remarquables de Paris</title>
+    <!-- Importation du fichier css -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <h1 class="titre">Les arbes remarquables</h1>
+    <!-- Bloc contenant la carte et les arbres -->
+    <div class="carte">
+        <!--
+            Bloc contenant une photo d'arbre et sa description
+
+            On pourra répéter ce bloc en changeant l'id de l'arbre pour en créer de nouveau
+        -->
+        <div class="arbre" id="arbre1">
+            <img class="image-arbre" src="arbre.png" />
+            <div class="description">
+                <ul>
+                    <li>Genre: Arbre</li>
+                    <li>Tronc: Brun</li>
+                    <li>Arrondissement: 16</li>
+                </ul>
+            </div>
+        </div>
+        <div class="arbre" id="arbre2">
+            <img class="image-arbre" src="arbre.png" />
+            <div class="description">
+                <ul>
+                    <li>Genre: Arbre</li>
+                    <li>Tronc: Brun</li>
+                    <li>Arrondissement: 16</li>
+                </ul>
+            </div>
+        </div>
+        <div class="arbre" id="arbre3">
+            <img class="image-arbre" src="arbre.png" />
+            <div class="description">
+                <ul>
+                    <li>Genre: Arbre</li>
+                    <li>Tronc: Brun</li>
+                    <li>Arrondissement: 16</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bloc contenant les différentes checkbox -->
+    <form class="checkboxes">
+        <!-- Contient une checkbox et son label -->
+        <div class="checkbox-group">
+            Tous: <input type="checkbox" class="checkbox" name="tous" value="tous" checked />
+        </div>
+        <div class="checkbox-group">
+            16eme: <input type="checkbox" class="checkbox" name="arrondissement" value="arrondissement" />
+        </div>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>

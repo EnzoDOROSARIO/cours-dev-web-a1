@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.titre {
+    text-align: center;
+}
+
+.carte {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    width: 1100px;
+    height: 450px;
+    background-image: url("carte.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+}
+
+.arbre {
+    position: absolute;
+    width: auto;
+}
+
+.image-arbre {
+    width: 50px;
+}
+
+.description {
+    background: red;
+    color: white;
+    padding: 5px;
+    margin-top: 0;
+    display: none;
+}
+
+.description ul {
+    margin-left: 0;
+}
+
+.arbre:hover .image-arbre {
+    transform: scale(1.1);
+}
+
+
+.arbre:hover .description {
+    display: block;
+}
+
+#arbre1 {
+    top: 10%;
+    left: 30%;
+}
+
+#arbre2 {
+    top: 40%;
+    left: 80%;
+}
+#arbre3 {
+    top: 30%;
+    left: 20%;
+}
+
+.checkboxes {
+    display: flex;
+    justify-content: space-around;
+}
+
+.hidden {
+    display: none;
+}
